@@ -1,0 +1,119 @@
+@font-face {
+    font-family: font1;
+    src: url(5a13f7d1-b615-418e-bc3a-525001b9a671.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(9VWMTeb5jtXkNoTv949Npfk_vArhqVIZ0nv9q090hN8.woff2);
+}
+@font-face {
+    font-family: font3;
+    src: url(avenir-lt-w01_35-light1475496.woff2);
+}
+@font-face {
+    font-family: font4;
+    src: url(file.woff2);
+}
+@font-face {
+    font-family: font5;
+    src: url(file.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(melody-zimmerman-Mn1CIHBSnJs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(99, 98, 98, 0.2);
+}
+nav{
+    height: 10%;
+    width: 100%;
+    padding: 3rem 4rem;
+    display: flex;
+    align-items: center;
+    font-family: font2;
+    justify-content: space-between;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo > h5{
+    margin-top: 8%;
+    color: white;
+}
+.logo > img{
+    height: 50px;
+    width: 50px;
+}
+.navlinks{
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+}
+.navlinks > a{
+    text-decoration: none;
+    color: black;
+}
+.navlinks > a:hover{
+    color: #B59F78;
+}
+.navbtn{
+    display: flex;
+    gap: 10px;
+}
+.navbtn > button{
+    background-color: transparent;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.navbtn > button:hover{
+    background-color: white;
+    color: #654520;
+}
+
+
+.overlaycontent{
+    margin-top: 13%;
+    margin-left: 47%;
+    position: relative;
+}
+.overlaycontent > h1{
+    width: 70%;
+    top: 52%;
+    font-family: font5;
+    font-size: 80px;
+    position: absolute;
+}
+.overlaycontent > h2{
+    width: 51%;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.overlaycontent > h2::first-line{
+    color: #654520;
+}
